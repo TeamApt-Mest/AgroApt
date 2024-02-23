@@ -21,24 +21,24 @@ const Footer = () => {
           Back To Top
         </button>
       </section>
-      <section>
-        <div>
-          <h4>My Account</h4>
+      <section className="containerForText">
+        <div className="listItems">
+          <h5>My Account</h5>
           <li>My Account</li>
           <li>Order History</li>
           <li>Shopping Cart</li>
           <li>Wishlist</li>
           <li>Settings</li>
         </div>
-        <div>
-          <h4>Helps</h4>
+        <div className="listItems">
+          <h5>Helps</h5>
           <li>Contact</li>
           <li>FAQs</li>
           <li>Terms and Conditions</li>
           <li>Privacy policy</li>
         </div>
-        <div>
-          <h4>Proxy</h4>
+        <div className="listItems">
+          <h5>Proxy</h5>
           <li>About</li>
           <li>Shop</li>
           <li>Product</li>
