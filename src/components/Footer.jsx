@@ -4,6 +4,9 @@ import twitter from "../images/twitter.svg";
 import instagram from "../images/instagram.svg";
 import applogo from "../images/applogo.png";
 import styles from "../../src/App.css";
+import applepaylogo from "../images/applepaylogo.png";
+import mastercardlogo from "../images/mastercardlogo.png";
+import visalogo from "../images/visalogo.png";
 const Footer = () => {
   const year = new Date().getFullYear();
   const scrollToTop = () => {
@@ -27,7 +30,7 @@ const Footer = () => {
           <img className="appLogo" src={applogo} alt="logo of app" />
         </div>
         <p>Subscribe to Our Newsletter</p>
-        <div className="input-group mb-3">
+        <div className="input-group mb-3 inputSection">
           <input
             type="text"
             className={`form ${styles.form}`}
@@ -68,13 +71,22 @@ const Footer = () => {
           <li className="listItemHover">Track Order</li>
         </div>
       </section>
-      <section>
-        <div>
+      <section className="lastSection">
+        <div className="iconSection">
           <img src={facebook1} alt="facebook logo" />
           <img src={twitter} alt="twitter logi" />
           <img src={instagram} alt="instagram logo" />
         </div>
         <p>{`Copyright © AgroApt ${year}`}</p>
+        <div className="paymentIcons">
+          <img className="visaLogo" src={visalogo} alt="visa logo" />
+          <img
+            className="cardLogo"
+            src={mastercardlogo}
+            alt="mastercard logo"
+          />
+          <img className="applepayLogo" src={applepaylogo} alt="applepaylogo" />
+        </div>
       </section>
     </footer>
   );
