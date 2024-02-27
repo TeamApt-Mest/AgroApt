@@ -1,4 +1,4 @@
-import LandingPage from "./pages/landing";
+import LandingPage from "./Pages/landing";
 
 
 function App() {

@@ -1,0 +1,120 @@
+.navbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  
+  .fullButton {
+    width: 100%;
+    background-color: #00B108;
+    border: none;
+    color: white;
+  }
+  
+  .fullButton:hover {
+    background-color: #012604;
+  }
+  
+  .Footer {
+    background-color: #012604;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+    padding: 10x;
+  }
+  
+  .containerForText {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin: 0 auto;
+  }
+  
+  .listItems {
+    text-align: left;
+   margin-left: 200px;
+  }
+  
+  .listItemHover:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .listItemHover{
+    color: rgb(142, 143, 145);
+  }
+  
+  .appLogo {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .newsLetterSection {
+    background-color: white;
+    color: black;
+    display: flex;
+    padding-top: none;
+    padding-bottom: none;
+    align-items:  center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .btn {
+    background-color: #012604;
+    color: white;
+    height: 30px;
+    border-radius: 30px;
+    font-size: small;
+    
+  }
+  
+  .form {
+    border-radius: 20px;
+    height: 30px;
+    font-size: small;
+  }
+  
+  .form:focus {
+    outline: none;
+  }
+  
+  .lastSection {
+    outline-style: solid;
+    outline-width: 0.1px;
+    outline-color: grey;
+    display: flex;
+    gap: 450px;
+    padding-top: 15px;
+  }
+  
+  .iconSection {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .inputSection {
+    width: fit-content;
+  }
+  
+  .paymentIcons{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .visaLogo{
+    height: 30px;
+    width: 30px;
+  }
+  
+  .cardLogo {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .applepayLogo {
+    height: 30px;
+    width: 30px;
+  }
