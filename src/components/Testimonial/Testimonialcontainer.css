@@ -1,0 +1,15 @@
+.testimonial-container {
+  background-color: #f1fff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.testimonial-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 200px;
+  text-align: center;
+}
