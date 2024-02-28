@@ -1,10 +1,12 @@
 .content {
-  position: relative;
-  font-size: medium;
+ width: 80%;
 }
 
-.About-us {
+.about-us {
   text-align: center;
-  font-size: 40px;
-  font-family: sans-serif;
+ padding-bottom: 100px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
 }

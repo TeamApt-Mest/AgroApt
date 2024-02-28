@@ -1,3 +1,6 @@
+h1,h2, h3, h4{
+  font-weight: bolder;
+}
 
 .hero-container {
     background-color: #f7f5eb;
@@ -28,7 +31,8 @@
   .purchase-message {
     background-color: #6ed26f;
     border-radius: 25px;
-    height: 30px;
+    font-size: large;
+    padding: 10px 18px;
   }
   .hero-image {
     flex: 1;
@@ -43,31 +47,35 @@
   }
   
   .products {
-    background-color: #F1FFF2;
+    /* background-color: #F1FFF2; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+
   }
   .feature-heading {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
+
   .featured-products {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 20px;
     flex-direction: row;
     justify-content: center;
   }
   .featured-item {
     flex-basis: 20%;
-    /* margin-bottom: 20px; */
     padding: 10px;
     text-align: center;
     background-color: white;
     border: 1px solid #FEFFFD;
+    
   }
   .featured-item img {
-    width: 80%;
-    height: auto;
+    width: 300px;
+    height: 200px;
   }
 
 
