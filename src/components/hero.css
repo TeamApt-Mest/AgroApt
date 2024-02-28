@@ -1,0 +1,27 @@
+.products {
+    background-color: #F1FFF2;
+  }
+  .feature-heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .featured-item {
+    flex-basis: 20%;
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #FEFFFD;
+  }
+  .featured-item img {
+    width: 80%;
+    height: auto;
+  }
