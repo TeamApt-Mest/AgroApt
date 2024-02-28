@@ -42,7 +42,7 @@ const ReviewContainer = () => {
       <div className="review-container">
         <Cards
           image={quotes}
-          cardtext="I recently had the pleasure of purchasing farm-fresh produce from the Agro Marketplace, and I must say, I'm thoroughly impressed. The tomatoes were bursting with flavor, the lettuce crisp and vibrant, and the strawberries incredibly sweet."
+          cardtext="I recently had the pleasure of purchasing farm-fresh produce from the Agro Marketplace, and I must say, I'm thoroughly impressed."
           person={abi}
           name="Abigail"
           position="Customer"
