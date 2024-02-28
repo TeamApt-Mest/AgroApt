@@ -19,26 +19,28 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(218, 212, 212);
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.5)
 }
 
 .listItems{
     list-style: none;
     justify-content: space-between;
+    padding-top: 5px;
 }
 
 .list {
     display: inline;
     padding: 10px;
-    color: white;
 
 }
 .list:hover {
     cursor: pointer;
+    color: #01b108;
 }
 
 .but {
     height: 30px;
-    
+    background-color: #01b108;
 }
 
 .input{
@@ -46,22 +48,27 @@
 }
 
 .buttonSection {
-    width: fit-content;
+    position: absolute;
+    left: 89%;
 }
 
 .loginButton{
     background-color: #01b108;
     color: white;
     width: 50px;
+    border-radius: 10px;
 }
 
 .signupButton{
     background-color: #01b108;
     color: white;
     margin-left: 10px;
+    border-radius: 10px;
 }
 
-
+.formInput {
+    margin-top: 20px;
+}
 /* .container {
     display: flex;
     justify-content: space-between;

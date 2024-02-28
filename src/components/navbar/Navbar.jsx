@@ -11,9 +11,9 @@ const NavBar = () => {
         <div>
           <img className="appLogo" src={logo} alt="logo of app" />
         </div>
-        <form className="d-flex" role="search">
+        <form className="d-flex formInput" role="search">
         <input className="form-control me-1 input" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-success but" type="submit">Search</button>
+        <button className="btn btn-success but" type="submit">Search</button>
       </form>
     <div>
        <img className="cartIcon" src={icon} alt="" />
@@ -26,6 +26,7 @@ const NavBar = () => {
 <li className="list">Buy Now</li>
 <li className="list">Sell Now</li>
         </ul>
+        <div className="buttons"></div>
         <div className="buttonSection">
           <button className="loginButton">Login</button>
           <button className="signupButton">Sign Up</button>
