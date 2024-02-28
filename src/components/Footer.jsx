@@ -1,13 +1,12 @@
 import React from "react";
-import facebook1 from "../../images/facebook1.svg";
-import twitter from "../../images/twitter.svg";
-import instagram from "../../images/instagram.svg";
-import applogo from "../../images/applogo.png";
-import applepaylogo from "../../images/applepaylogo.png";
-import mastercardlogo from "../../images/mastercardlogo.png";
-import visalogo from "../../images/visalogo.png";
-import styles from "./Footer.css";
-
+import facebook1 from "../images/facebook1.svg";
+import twitter from "../images/twitter.svg";
+import instagram from "../images/instagram.svg";
+import applogo from "../images/applogo.png";
+import styles from "../../src/App.css";
+import applepaylogo from "../images/applepaylogo.png";
+import mastercardlogo from "../images/mastercardlogo.png";
+import visalogo from "../images/visalogo.png";
 const Footer = () => {
   const year = new Date().getFullYear();
   const scrollToTop = () => {
