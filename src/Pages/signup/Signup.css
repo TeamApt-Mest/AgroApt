@@ -1,0 +1,134 @@
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Young Serif', serif;
+} */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#002349, #957C3D);
+} */
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.container .title::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 20px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #002349, #957C3D);
+}
+
+.container form .user-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-info .input-box {
+    width: calc(50% - 10px);
+}
+
+.user-info .input-box .info {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.user-info .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-info .input-box input:focus,
+.user-info .input-box input:valid {
+    border-color: #957C3D;
+}
+
+.gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gender-info .category {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.category label {
+    display: block; /* Change to block for standard radio buttons */
+    margin-bottom: 10px; /* Add some spacing between options */
+}
+
+/* Adjust styling for standard radio buttons */
+.category input[type="radio"] {
+    margin-right: 5px; /* Add some spacing between the radio button and label text */
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, #002349, #957C3D);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button input:hover {
+    background: linear-gradient(135deg, #002349, #957C3D);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .user-info .input-box {
+        width: 100%;
+    }
+}
