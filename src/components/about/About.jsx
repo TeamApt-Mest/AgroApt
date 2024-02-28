@@ -1,10 +1,10 @@
 import "./about.css";
 const About = () => {
   return (
-    <>
-      <div className="About-us">About Us</div>
-      <div>
-        <p className="content">
+    <div className="about-us">
+      <h2>About Us</h2>
+      <div className="content">
+        <p >
           At Our Agro Marketplace, we believe in fostering a vibrant connection
           between farmers and consumers. Our mission is simple: to provide a
           platform where farmers can showcase their finest produce and customers
@@ -26,7 +26,7 @@ const About = () => {
           future for generations to come.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

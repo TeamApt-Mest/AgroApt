@@ -27,5 +27,9 @@
   align-items: center;
   padding: 15px;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
+}
+
+.card-text {
+  height: 200px;
 }

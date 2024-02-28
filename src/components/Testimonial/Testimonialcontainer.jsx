@@ -4,12 +4,12 @@ import "./Testimonialcontainer.css";
 
 const Testimonialcontainer = () => {
   return (
-    <>
-      <div className="testimonial-heading">What Our Clients Say</div>
+    <div className="testimonial">
+      <h2>What Our Clients Say</h2>
       <div className="testimonial-container">
         <ReviewContainer />
       </div>
-    </>
+    </div>
   );
 };
 
