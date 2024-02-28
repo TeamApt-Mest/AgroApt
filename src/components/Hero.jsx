@@ -1,5 +1,4 @@
 import fruitsveg from '../assets/images/fruitsveg.png'
-import "./hero.css";
 const Hero = () => {
   return (
     <div className="hero-container">

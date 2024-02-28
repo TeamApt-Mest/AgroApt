@@ -6,8 +6,6 @@ import mushroom from '../assets/images/mushroom.png'
 import Broccoli from '../assets/images/Broccoli.png';
 import garlic from '../assets/images/garlic.png';
 import carrot from '../assets/images/carrot.png';
-import "./features.css";
-
 
 const Features = () => {
     return (
