@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-import './App.css';
-import LandingPage from './Pages/landing/Landing';
-=======
+
+//import './App.css';
+//import LandingPage from './Pages/landing/Landing';
+
 // import {  Routes, Route } from "react-router-dom";
 import NavBar from "./components/navbar/Navbar.jsx";
 import LandingPage from "./pages/landing";
@@ -13,32 +13,28 @@ import LandingPage from "./pages/landing";
 // import buyNow from "./pages/buyNow";
 // import sellNow from "./pages/sellNow";
 // import login from "./pages/login";
->>>>>>> feature/navbar
 
 // const router = createBrowserRouter([{
 //   path:"/", element: <AboutUs/>}
 // ])
-function App() {
-  return (
-<<<<<<< HEAD
+//function App() {
+  /*return (
     <>
       <LandingPage />
     </>
-=======
    <>
       <NavBar />
       <LandingPage/>
       
-         {/* <Routes>
+         { <Routes>
         <Route path="/home" element={<LandingPage />} />
         <Route path="/aboutUs" element={<aboutUs />} />
         <Route path="/buyNow" element={<buyNow />} />
         <Route path="/sellNow" element={<sellNow />} />
         <Route path="/login" element={<login />} /> 
-      </Routes>   */}
+      </Routes> }
       </>
->>>>>>> feature/navbar
   );
 }
 
-export default App;
+export default App; */
