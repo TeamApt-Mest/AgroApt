@@ -6,7 +6,7 @@ import applogo from "../../images/applogo.png";
 import applepaylogo from "../../images/applepaylogo.png";
 import mastercardlogo from "../../images/mastercardlogo.png";
 import visalogo from "../../images/visalogo.png";
-import styles from "./Footer.css";
+import  "./Footer.css";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -21,7 +21,7 @@ const Footer = () => {
   // };
   return (
     <footer className="Footer">
-      <section className="buttonSection">
+      <section >
         <button className="fullButton" onClick={scrollToTop}>
           Back To Top
         </button>
@@ -34,13 +34,13 @@ const Footer = () => {
         <div className="input-group mb-3 inputSection">
           <input
             type="text"
-            className={`form ${styles.form}`}
+            className={`form`}
             placeholder="Your email address"
             aria-label="Your email address"
             aria-describedby="button-addon2"
           />
           <button
-            className={`btn ${styles.btn}`}
+            className={`btn `}
             type="button"
             id="button-addon2"
           >
@@ -51,25 +51,25 @@ const Footer = () => {
       <section className="containerForText">
         <div className="listItems">
           <h5>My Account</h5>
-          <li className="listItemHover">My Account</li>
-          <li className="listItemHover">Order History</li>
-          <li className="listItemHover">Shopping Cart</li>
-          <li className="listItemHover">Wishlist</li>
-          <li className="listItemHover">Settings</li>
+          <span className="listItemHover">My Account</span>
+          <span className="listItemHover">Order History</span>
+          <span className="listItemHover">Shopping Cart</span>
+          <span className="listItemHover">Wishlist</span>
+          <span className="listItemHover">Settings</span>
         </div>
         <div className="listItems">
           <h5>Helps</h5>
-          <li className="listItemHover">Contact</li>
-          <li className="listItemHover">FAQs</li>
-          <li className="listItemHover">Terms and Conditions</li>
-          <li className="listItemHover">Privacy policy</li>
+          <span className="listItemHover">Contact</span>
+          <span className="listItemHover">FAQs</span>
+          <span className="listItemHover">Terms and Conditions</span>
+          <span className="listItemHover">Privacy policy</span>
         </div>
         <div className="listItems">
           <h5>Proxy</h5>
-          <li className="listItemHover">About</li>
-          <li className="listItemHover">Shop</li>
-          <li className="listItemHover">Product</li>
-          <li className="listItemHover">Track Order</li>
+          <span className="listItemHover">About</span>
+          <span className="listItemHover">Shop</span>
+          <span className="listItemHover">Product</span>
+          <span className="listItemHover">Track Order</span>
         </div>
       </section>
       <section className="lastSection">

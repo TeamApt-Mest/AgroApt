@@ -6,6 +6,7 @@
   
   
   .fullButton {
+    /* width: 100%; */
     width: 100%;
     background-color: #00B108;
     border: none;
@@ -19,21 +20,24 @@
   .Footer {
     background-color: #012604;
     text-align: center;
-    margin-top: auto;
+    margin-top: 4rem;
     color: white;
-    padding: 10x;
+   
   }
   
   .containerForText {
     display: flex;
     gap: 60px;
-    list-style: none;
     margin: 0 auto;
+    padding: 40px 0;
   }
   
   .listItems {
     text-align: left;
    margin-left: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
   }
   
   .listItemHover:hover {
@@ -54,8 +58,7 @@
     background-color: white;
     color: black;
     display: flex;
-    padding-top: none;
-    padding-bottom: none;
+    padding: 0 20px;
     align-items:  center;
     justify-content: space-between;
     width: 100%;
@@ -63,18 +66,18 @@
   }
   
   .btn {
-    background-color: #012604;
-    color: white;
-    height: 30px;
-    border-radius: 30px;
-    font-size: small;
+    background-color: #012604 !important;
+    color: white !important;
+    height: 30px !important ;
+    border-radius: 30px !important;
+    font-size: small !important;
     
   }
   
   .form {
-    border-radius: 20px;
-    height: 30px;
-    font-size: small;
+    border-radius: 20px !important;
+    height: 30px !important;
+    font-size: small !important;
   }
   
   .form:focus {
@@ -87,7 +90,7 @@
     outline-color: grey;
     display: flex;
     gap: 450px;
-    padding-top: 15px;
+    padding: 15px;
   }
   
   .iconSection {
@@ -96,7 +99,7 @@
   }
   
   .inputSection {
-    width: fit-content;
+    width: fit-content !important;
   }
   
   .paymentIcons{
