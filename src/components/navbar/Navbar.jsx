@@ -36,7 +36,9 @@ const NavBar = () => {
           </li>
           <li className="list">About Us</li>
           <li className="list">Buy Now</li>
-          <li className="list">Sell Now</li>
+          <Link to="/sellNow">
+            <li className="list">Sell Now</li>
+          </Link>
         </ul>
         <div className="buttons"></div>
         <div className="buttonSection">

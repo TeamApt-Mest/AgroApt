@@ -5,16 +5,15 @@ import FeaturedProducts from "../../components/featuredproducts/FeaturedProducts
 import NavBar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 
-
 const LandingPage = () => {
   return (
     <>
-     <NavBar/>
+      <NavBar />
       <HeroSection />
       <FeaturedProducts />
       <About />
       <Testimonialcontainer />
-     <Footer/>
+      <Footer />
     </>
   );
 };

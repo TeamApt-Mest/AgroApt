@@ -6,6 +6,7 @@ import BuyNow from './Pages/buynow.jsx';
 import SellNow from './Pages/sellnow.jsx';
 import Login from './Pages/Login.jsx';
 import Signup from './Pages/signup/Signup.jsx';
+import Sellerdashboard from './Pages/Sellerdashboard.jsx';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path="/sellNow" element={<SellNow />} />
       <Route path="/login" element={<Login />} />
       <Route path='/signup' element={<Signup/>} />
+      <Route path='/Sellerdashboard' element={<Sellerdashboard/>}/>
     </Routes>
 
   );
