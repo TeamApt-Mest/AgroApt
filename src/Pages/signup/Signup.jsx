@@ -5,7 +5,7 @@ const Signup = () => {
   return (
     <div class="container">
       <div class="title">Sign Up</div>
-      <form action="rsult.html" method="get">
+      <form>
         <div class="user-info">
           <div class="input-box">
             <span class="info">Full Name</span>
