@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/AgroApt Logo.jpg";
 import icon from "../../assets/cart-icon.png";
@@ -12,20 +12,35 @@ const NavBar = () => {
           <img className="appLogo" src={logo} alt="logo of app" />
         </div>
         <form className="d-flex formInput" role="search">
-        <input className="form-control me-1 input" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-success but" type="submit">Search</button>
-      </form>
-    <div>
-       <img className="cartIcon" src={icon} alt="" />
-     </div>
+          <input
+            className="form-control me-1 input"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button className="btn btn-success but" type="submit">
+            Search
+          </button>
+        </form>
+        <div>
+          <img className="cartIcon" src={icon} alt="" />
+        </div>
       </section>
       <section className="secondSection">
-        <ul className="listItems">
-<li className="list">Home</li>
-<li className="list">About Us</li>
-<li className="list">Buy Now</li>
-<li className="list">Sell Now</li>
-        </ul>
+        <div className="listItems">
+          <Link class="active" to="/home" className="link">
+            Home
+          </Link>
+          <Link class="active" to="/aboutUs" className="link">
+            About Us
+          </Link>
+          <Link class="active" to="/buyNow" className="link">
+            Buy Now
+          </Link>
+          <Link class="active" to="sellNow" className="link">
+            Sell Now
+          </Link>
+        </div>
         <div className="buttons"></div>
         <div className="buttonSection">
           <button className="loginButton">Login</button>
@@ -35,7 +50,7 @@ const NavBar = () => {
     </nav>
     // <div className="container">
     //   <img className="logo" src={logo} alt="" />
-      
+
     //   <div>
     //     <input type="text" placeholder="Search.." />
     //     <input type="submit" />
