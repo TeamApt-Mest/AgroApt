@@ -27,6 +27,7 @@ const NavBar = () => {
         </div>
       </section>
       <section className="secondSection">
+
         <ul className="listItems">
           <li className="list">
             {" "}
@@ -38,6 +39,22 @@ const NavBar = () => {
           <li className="list">Buy Now</li>
           <li className="list">Sell Now</li>
         </ul>
+
+        <div className="listItems">
+          <Link class="active" to="/home" className="link">
+            Home
+          </Link>
+          <Link class="active" to="/aboutUs" className="link">
+            About Us
+          </Link>
+          <Link class="active" to="/buyNow" className="link">
+            Buy Now
+          </Link>
+          <Link class="active" to="sellNow" className="link">
+            Sell Now
+          </Link>
+        </div>
+
         <div className="buttons"></div>
         <div className="buttonSection">
           <button className="loginButton">Login</button>
