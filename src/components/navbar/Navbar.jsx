@@ -37,7 +37,9 @@ const NavBar = () => {
           </li>
           <li className="list">About Us</li>
           <li className="list">Buy Now</li>
-          <li className="list">Sell Now</li>
+          <Link to="/sellNow">
+            <li className="list">Sell Now</li>
+          </Link>
         </ul>
 
         <div className="listItems">
@@ -57,7 +59,8 @@ const NavBar = () => {
 
         <div className="buttons"></div>
         <div className="buttonSection">
-          <button className="loginButton">Login</button>
+          <Link to="/login">
+          <button className="loginButton">Login</button></Link>
           <Link to="/signup">
             <button className="signupButton">Sign Up</button>
           </Link>

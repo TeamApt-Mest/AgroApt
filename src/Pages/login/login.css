@@ -1,23 +1,3 @@
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Lilita One', cursive;
-font-family: 'Raleway', sans-serif;
-font-family: 'Young Serif', serif;
-} */
-
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(135deg,#002349, #957C3D);
-} */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     padding: 0;
@@ -25,12 +5,10 @@ font-family: 'Young Serif', serif;
     box-sizing: border-box;
   
 }
-
-body{
-    background: linear-gradient(90deg, rgb(98, 98, 100) 0%, rgb(127, 126, 128) 35%, rgb(213, 216, 217) 100%);
-    font-family: 'Poppins', sans-serif;
-
+.container-fluid {
+    background-image: url(../../images/aneta-pawlik-ikGrIOdyeOU-unsplash.jpg);
 }
+
 form{
     border-radius: 20px;
     margin-top: 150px !important;

@@ -3,70 +3,27 @@ import "./Signup.css";
 
 const Signup = () => {
   return (
-    <div class="container">
-      <div class="title">Sign Up</div>
-      <form>
-        <div class="user-info">
-          <div class="input-box">
-            <span class="info">Full Name</span>
-            <input type="text" placeholder="Name" required />
-          </div>
-          <div class="input-box">
-            <span class="info">Username</span>
-            <input type="text" placeholder="Username" required />
-          </div>
-          <div class="input-box">
-            <span class="info">Email</span>
-            <input type="email" placeholder="abc@mail.com" required />
-          </div>
-          <div class="input-box">
-            <span class="info">Phone Number</span>
-            <input
-              type="tel"
-              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{4}"
-              required
-            />
-          </div>
-          <div class="input-box">
-            <span class="info">Password</span>
-            <input
-              type="password"
-              placeholder="Password"
-              autocomplete="current-password"
-              required
-              minlength="8"
-              maxlength="128"
-            />
-          </div>
-          <div class="input-box">
-            <span class="info">Confirm Password</span>
-            <input
-              type="password"
-              autocomplete="current-password"
-              required
-              minlength="8"
-              maxlength="128"
-            />
-          </div>
+    <div class="container-fluid">
+            <form class="mx-auto">
+                <h4 class="text-center">Signup</h4>
+                <div class="mb-3 mt-5">
+                  <label for="exampleInputEmail1" class="form-label">User Name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                </div>
+                <div class="mb-3 mt-5">
+                  <label for="exampleInputEmail1" class="form-label">Password</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"/>
+                  <div id="emailHelp" class="form-text mt-3">Forget password ?</div>
+          
+                </div>
+              
+                <button type="submit" class="btn btn-primary mt-5">Signup</button>
+              </form>
         </div>
-        <div class="gender-info">
-          <span class="gender-title">Gender</span>
-          <div class="category">
-            <label>
-              <input type="radio" name="gender" value="Male" />
-              Male
-            </label>
-            <label>
-              <input type="radio" name="gender" value="Female" />
-              Female
-            </label>
-          </div>
-        </div>
-        <div class="button">
-          <input type="submit" value="Sign up" />
-        </div>
-      </form>
-    </div>
   );
 };
 
