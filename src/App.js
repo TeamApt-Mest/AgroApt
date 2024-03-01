@@ -1,10 +1,10 @@
 import './App.css';
-import LandingPage from './Pages/landing/Landing';
+import LandingPage from './pages/landing/Landing';
 import { Routes, Route } from "react-router-dom";
-import AboutUs from './Pages/aboutUs.jsx';
-import BuyNow from './Pages/buyNow.jsx';
-import SellNow from './Pages/sellNow.jsx';
-import Login from './Pages/login.jsx';
+import AboutUs from './pages/aboutUs.jsx';
+import BuyNow from './pages/buyNow.jsx';
+import SellNow from './pages/sellNow.jsx';
+import Login from './pages/login.jsx';
 
 
 function App() {
