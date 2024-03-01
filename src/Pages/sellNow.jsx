@@ -22,4 +22,8 @@ const SellNow = () => {
   );
 };
 
+    <div></div>
+  )
+}
+
 export default SellNow;
