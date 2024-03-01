@@ -4,7 +4,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom'
+import "bootstrap/js/dist/dropdown";
 
+import "bootstrap/js/dist/collapse";
 
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';

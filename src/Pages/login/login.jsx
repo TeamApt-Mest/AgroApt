@@ -1,10 +1,9 @@
 import React from "react";
-import "./sellnow.css";
-import { Link } from "react-router-dom";
+import "./login.css";
 
-const SellNow = () => {
+const Login = () => {
   return (
-    <div class="container-fluid">
+    <div className ="container-fluid"  >
             <form class="mx-auto">
                 <h4 class="text-center">Login</h4>
                 <div class="mb-3 mt-5">
@@ -15,11 +14,11 @@ const SellNow = () => {
                   <label for="exampleInputEmail1" class="form-label">Password</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 </div>
-            <Link to="./Sellerdashboard"><button type="submit" class="btn btn-primary mt-5">Login</button></Link>
-                
+            
+                <button type="submit" class="btn btn-primary mt-5">Login</button>
               </form>
         </div>
   );
 };
 
-export default SellNow;
+export default Login;
