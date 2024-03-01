@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/AgroApt Logo.jpg";
-import icon from "../../assets/cart-icon.png";
+import icon from "../../assets/cart-icon.jpg.jpg";
 // import { Navbar } from "react-bootstrap";
 
 const NavBar = () => {
@@ -23,7 +23,7 @@ const NavBar = () => {
           </button>
         </form>
         <div>
-          <img className="cartIcon" src={icon} alt="" />
+          <img className="cartIcon" src={icon} alt="cart" />
         </div>
       </section>
       <section className="secondSection">
