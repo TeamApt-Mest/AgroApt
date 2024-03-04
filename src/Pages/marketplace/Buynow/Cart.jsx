@@ -26,7 +26,11 @@ const Cart = () => {
                 return (
                   <tr key={index}>
                     <td>
-                      <img src={item.img} style={{ height: "6rem" }} />
+                      <img
+                        src={item.img}
+                        alt={item}
+                        style={{ height: "6rem" }}
+                      />
                     </td>
                     <td>{item.title}</td>
                     <td>{}item.price</td>
@@ -48,11 +52,12 @@ const Cart = () => {
                       >
                         +
                       </button>
-                      <button className="btn btn-danger ms-2"
-                      onClick={() =>
-                        removeItem(item.id)
-                      }
-                      >Remove Item</button>
+                      <button
+                        className="btn btn-danger ms-2"
+                        onClick={() => removeItem(item.id)}
+                      >
+                        Remove Item
+                      </button>
                     </td>
                   </tr>
                 );
@@ -64,11 +69,9 @@ const Cart = () => {
           <h2>Total Price: $ {cartTotal}</h2>
         </div>
         <div>
-          <button className="btn btn-danger m-2"
-          onClick={() =>
-            emptyCart()
-          }
-          >Clear Cart</button>
+          <button className="btn btn-danger m-2" onClick={() => emptyCart()}>
+            Clear Cart
+          </button>
           <button className="btn btn-primary m-2">Buy Now</button>
         </div>
       </div>

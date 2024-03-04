@@ -1,73 +1,71 @@
-
 .appLogo {
-    height: 70px;
-    width: 70px;
+  height: 70px;
+  width: 70px;
 }
 
-.firstSection{
-    display: flex;
-    justify-content: space-between;
+.firstSection {
+  display: flex !important;
+  justify-content: space-between;
 }
 
-.cartIcon{
-    height: 50px;
-    width: 50px
+.cartIcon {
+  height: 50px;
+  width: 50px;
 }
 
 .secondSection {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(218, 212, 212);
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.5)
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(218, 212, 212);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.listItems{
-    list-style: none;
-    justify-content: space-between;
-    padding-top: 5px;
+.listItems {
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 5px;
 }
 
 .list {
-    display: inline;
-    padding: 10px;
-
+  display: inline;
+  padding: 10px;
 }
 .list:hover {
-    cursor: pointer;
-    color: #01b108;
+  cursor: pointer;
+  color: #01b108;
 }
 
 .but {
-    height: 30px;
-    background-color: #01b108;
+  height: 30px;
+  background-color: #01b108;
 }
 
-.input{
-    height: 30px;
+.input {
+  height: 30px;
 }
 
 .buttonSection {
-    position: absolute;
-    left: 89%;
+  position: absolute;
+  left: 89%;
 }
 
-.loginButton{
-    background-color: #01b108;
-    color: white;
-    width: 50px;
-    border-radius: 10px;
+.loginButton {
+  background-color: #01b108;
+  color: white;
+  width: 50px;
+  border-radius: 10px;
 }
 
-.signupButton{
-    background-color: #01b108;
-    color: white;
-    margin-left: 10px;
-    border-radius: 10px;
+.signupButton {
+  background-color: #01b108;
+  color: white;
+  margin-left: 10px;
+  border-radius: 10px;
 }
 
 .formInput {
-    margin-top: 20px;
+  margin-top: 20px !important;
 }
 /* .container {
     display: flex;

@@ -27,40 +27,26 @@ const NavBar = () => {
         </div>
       </section>
       <section className="secondSection">
-
-        <ul className="listItems">
-          <li className="list">
-            {" "}
-            <Link class="active" to="/home">
-              Home
-            </Link>
-          </li>
-          <li className="list">About Us</li>
-          <li className="list">Buy Now</li>
-          <Link to="/sellNow">
-            <li className="list">Sell Now</li>
-          </Link>
-        </ul>
-
         <div className="listItems">
           <Link class="active" to="/home" className="link">
-            Home
+            <span>Home</span>
           </Link>
           <Link class="active" to="/aboutUs" className="link">
-            About Us
+            <span>About Us</span>
           </Link>
           <Link class="active" to="/buyNow" className="link">
-            Buy Now
+            <span>Buy Now</span>
           </Link>
           <Link class="active" to="sellNow" className="link">
-            Sell Now
+            <span>Sell Now</span>
           </Link>
         </div>
 
         <div className="buttons"></div>
         <div className="buttonSection">
           <Link to="/login">
-          <button className="loginButton">Login</button></Link>
+            <button className="loginButton">Login</button>
+          </Link>
           <Link to="/signup">
             <button className="signupButton">Sign Up</button>
           </Link>
